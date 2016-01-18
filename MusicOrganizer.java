@@ -82,4 +82,14 @@ public class MusicOrganizer
     {
         player.stop();
     }
+    public int  findFirst(String nombre)
+    {
+        int index = 0;
+        boolean found = false;
+        while (!found && index < files.size())
+        {
+            index ++;
+        }
+        return index;
+    }
 }
